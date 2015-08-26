@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "SSPullToRefresh.h"
 
-@interface KFDemoViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, SSPullToRefreshViewDelegate>
+@interface KFDemoViewController : UIViewController// <UITableViewDelegate, UITableViewDataSource, SSPullToRefreshViewDelegate>
 
 @property (nonatomic, strong) UITableView *streamsTableView;
-@property (nonatomic, strong) SSPullToRefreshView *pullToRefreshView;
+//@property (nonatomic, strong) SSPullToRefreshView *pullToRefreshView;
 
 @end

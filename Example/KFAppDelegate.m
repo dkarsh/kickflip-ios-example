@@ -12,7 +12,7 @@
 #import "KFSecrets.h"
 #import "KFLog.h"
 #import "DDTTYLogger.h"
-#import "KFOnboardingViewController.h"
+
 
 @implementation KFAppDelegate
 
