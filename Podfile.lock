@@ -46,6 +46,10 @@ PODS:
   - CocoaLumberjack/Core (1.9.2)
   - CocoaLumberjack/Extensions (1.9.2):
     - CocoaLumberjack/Core
+  - Crashlytics (3.1.1)
+  - Fabric (1.4.0):
+    - Fabric/Base (= 1.4.0)
+  - Fabric/Base (1.4.0)
   - FFmpeg (2.2):
     - FFmpeg/precompiled (= 2.2)
   - FFmpeg/precompiled (2.2)
@@ -99,6 +103,8 @@ DEPENDENCIES:
   - BButton (~> 4.0)
   - Bolts (~> 1.1.5)
   - CocoaLumberjack (~> 1.9.2)
+  - Crashlytics
+  - Fabric
   - FFmpeg (~> 2.2)
   - FFmpegWrapper (~> 1.0)
   - FormatterKit (~> 1.8.0)
@@ -124,6 +130,8 @@ SPEC CHECKSUMS:
   BButton: ab0f2ed3b998ae73c5188b57d270d81e4a1eeb27
   Bolts: aac24961496d504aa56fc267cde95162a71bac39
   CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
+  Crashlytics: 39ab395565bc03c29cdecd2b9d103ebf30930c10
+  Fabric: 6d1d1c1eaf7ebc76fc3307e2c0259456411baf26
   FFmpeg: e004e90bdac48219b272e7bea11671a25bb0a9b9
   FFmpegWrapper: 9a932581137d17203e842ce942e171158336ae16
   FormatterKit: bddde83e054edf9d9ee14f9de3b3a5103db256f4

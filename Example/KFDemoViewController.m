@@ -27,19 +27,12 @@ static NSString * const kKFStreamsCollection = @"kKFStreamsCollection";
 
 @interface KFDemoViewController ()
 @property (nonatomic, strong, readwrite) UIButton *broadcastButton;
-//@property (nonatomic, strong) YapDatabase *database;
-//@property (nonatomic, strong) YapDatabaseConnection *uiConnection;
-//@property (nonatomic, strong) YapDatabaseConnection *bgConnection;
-//@property (nonatomic, strong) YapDatabaseViewMappings *mappings;
 @property (nonatomic) NSUInteger currentPage;
 @end
 
 @implementation KFDemoViewController
 
-- (void) dealloc {
-//    self.pullToRefreshView = nil;
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
+
 
 - (void) broadcastButtonPressed:(id)sender {
     [Kickflip presentBroadcasterFromViewController:self ready:^(KFStream *stream) {
@@ -62,12 +55,9 @@ static NSString * const kKFStreamsCollection = @"kKFStreamsCollection";
     [self broadcastButtonPressed:nil];
 }
 
-
-
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 }
-
 
 
 - (void)didReceiveMemoryWarning

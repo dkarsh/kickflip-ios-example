@@ -30,4 +30,5 @@ pod 'SSKeychain', '~> 1.2.3'
 pod 'TMCache', '~> 1.2.4'
 pod 'UICKeyChainStore', '~> 2.0.4'
 pod 'XMLDictionary', '~>1.4'
-
+pod 'Fabric'
+pod 'Crashlytics'

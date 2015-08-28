@@ -12,12 +12,19 @@
 #import "KFSecrets.h"
 #import "KFLog.h"
 #import "DDTTYLogger.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
 
 
 @implementation KFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+   
+    [Fabric with:@[[Crashlytics class]]];
+    [UIApplication sharedApplication].idleTimerDisabled = YES;
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

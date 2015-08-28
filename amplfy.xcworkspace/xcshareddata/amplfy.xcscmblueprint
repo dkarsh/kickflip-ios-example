@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D0BD4C1CFF3E9C17A2326588C2A94030033271A4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D0BD4C1CFF3E9C17A2326588C2A94030033271A4" : 0,
+    "8359C4C1F827A159C9EDE1E14CD27BC93B5B0027" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "61DDFC4B-A06E-421E-96BB-490EBFB0F28E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D0BD4C1CFF3E9C17A2326588C2A94030033271A4" : "kickflip-ios-example",
+    "8359C4C1F827A159C9EDE1E14CD27BC93B5B0027" : "kickflip-sdk\/kickflip-ios-sdk"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "amplfy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "amplfy.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dkarsh\/BCAmplfy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8359C4C1F827A159C9EDE1E14CD27BC93B5B0027"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dkarsh\/kickflip-ios-example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0BD4C1CFF3E9C17A2326588C2A94030033271A4"
+    }
+  ]
+}
