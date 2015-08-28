@@ -68,6 +68,7 @@
 		E524B5FD1B8E21B7008486C0 /* KFLiveBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E524B5D61B8E21B7008486C0 /* KFLiveBannerView.m */; };
 		E524B5FE1B8E21B7008486C0 /* KFRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E524B5D81B8E21B7008486C0 /* KFRecordButton.m */; };
 		E524B5FF1B8E21B7008486C0 /* KFStreamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E524B5DA1B8E21B7008486C0 /* KFStreamTableViewCell.m */; };
+		E5FC40251B90DA1500DA3966 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FC40241B90DA1500DA3966 /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,6 +160,8 @@
 		E524B5D91B8E21B7008486C0 /* KFStreamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFStreamTableViewCell.h; sourceTree = "<group>"; };
 		E524B5DA1B8E21B7008486C0 /* KFStreamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFStreamTableViewCell.m; sourceTree = "<group>"; };
 		E58858B31B8BA8CF00958D7A /* KFSecrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFSecrets.h; sourceTree = "<group>"; };
+		E5FC40231B90DA1500DA3966 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		E5FC40241B90DA1500DA3966 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 				D945ADD4189854000026F697 /* amplfy-Info.plist */,
 				D945ADD5189854000026F697 /* amplfy-Prefix.pch */,
 				D945ADD6189854000026F697 /* main.m */,
+				E5FC40231B90DA1500DA3966 /* NSString+MD5.h */,
+				E5FC40241B90DA1500DA3966 /* NSString+MD5.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -572,6 +577,7 @@
 				E524B5FB1B8E21B7008486C0 /* KFDateUtils.m in Sources */,
 				E524B5EE1B8E21B7008486C0 /* KFDirectoryWatcher.m in Sources */,
 				E524B5E61B8E21B7008486C0 /* KFH264Encoder.mm in Sources */,
+				E5FC40251B90DA1500DA3966 /* NSString+MD5.m in Sources */,
 				E524B5E01B8E21B7008486C0 /* KFUser.m in Sources */,
 				E524B5F01B8E21B7008486C0 /* KFHLSMonitor.m in Sources */,
 				E524B5FE1B8E21B7008486C0 /* KFRecordButton.m in Sources */,
