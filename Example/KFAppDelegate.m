@@ -24,21 +24,16 @@
    
     [Fabric with:@[[Crashlytics class]]];
     [UIApplication sharedApplication].idleTimerDisabled = YES;
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    
-    [Kickflip setupWithAPIKey:KICKFLIP_API_KEY secret:KICKFLIP_API_SECRET];
+        
+//    [Kickflip setupWithAPIKey:KICKFLIP_API_KEY secret:KICKFLIP_API_SECRET];
     [Kickflip setMaxBitrate:2000*1000]; // 2 Mbps
     
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     
-    KFDemoViewController *demoVC = [[KFDemoViewController alloc] init];
-    
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:demoVC];
-    [self.window makeKeyAndVisible];
-    //signal(SIGPIPE, SIG_IGN);
+//    KFDemoViewController *demoVC = [[KFDemoViewController alloc] init];
+//    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:demoVC];
+//    [self.window makeKeyAndVisible];
+//    signal(SIGPIPE, SIG_IGN);
     return YES;
 }
 

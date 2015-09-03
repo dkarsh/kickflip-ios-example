@@ -20,20 +20,6 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - AFOAuth2Manager (2.2.0):
-    - AFNetworking/NSURLConnection (~> 2.2)
-  - AWSCore (2.1.2):
-    - Bolts (~> 1.1.0)
-    - GZIP (~> 1.0.3)
-    - Mantle (~> 1.4)
-    - Reachability (~> 3.1)
-    - UICKeyChainStore (~> 2.0)
-    - XMLDictionary (~> 1.4.0)
-  - AWSS3 (2.1.2):
-    - AWSCore (= 2.1.2)
-    - Bolts (~> 1.1.0)
-    - Mantle (~> 1.4)
-    - TMCache (~> 1.2.1)
   - BButton (4.0.2)
   - Bolts (1.1.5):
     - Bolts/AppLinks (= 1.1.5)
@@ -78,11 +64,23 @@ PODS:
   - Mantle (1.5.5):
     - Mantle/extobjc (= 1.5.5)
   - Mantle/extobjc (1.5.5)
+  - Mixpanel (2.8.3):
+    - Mixpanel/Mixpanel (= 2.8.3)
+  - Mixpanel/Mixpanel (2.8.3)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
   - PureLayout (2.0.6)
   - Reachability (3.2)
-  - SDWebImage (3.7.3):
-    - SDWebImage/Core (= 3.7.3)
-  - SDWebImage/Core (3.7.3)
   - SSKeychain (1.2.3)
   - SSPullToRefresh (1.2.3)
   - TMCache (1.2.4)
@@ -90,16 +88,9 @@ PODS:
   - UICKeyChainStore (2.0.6)
   - VTAcknowledgementsViewController (0.13)
   - XMLDictionary (1.4)
-  - YapDatabase (2.6.2):
-    - YapDatabase/standard (= 2.6.2)
-  - YapDatabase/standard (2.6.2):
-    - CocoaLumberjack (~> 1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.3)
-  - AFOAuth2Manager (~> 2.2.0)
-  - AWSCore (~> 2.1.1)
-  - AWSS3 (~> 2.1.1)
   - BButton (~> 4.0)
   - Bolts (~> 1.1.5)
   - CocoaLumberjack (~> 1.9.2)
@@ -110,9 +101,10 @@ DEPENDENCIES:
   - FormatterKit (~> 1.8.0)
   - GZIP (~> 1.0.3)
   - Mantle (~> 1.5.4)
+  - Mixpanel
+  - MMDrawerController
   - PureLayout (~> 2.0.6)
   - Reachability (~> 3.2)
-  - SDWebImage (~> 3.7.2)
   - SSKeychain (~> 1.2.3)
   - SSPullToRefresh (~> 1.2)
   - TMCache (~> 1.2.4)
@@ -120,13 +112,9 @@ DEPENDENCIES:
   - UICKeyChainStore (~> 2.0.4)
   - VTAcknowledgementsViewController (~> 0.10)
   - XMLDictionary (~> 1.4)
-  - YapDatabase (~> 2.5)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
-  AFOAuth2Manager: 952eb62e8fd8022971e64c6e8fe28b9e999224af
-  AWSCore: c8f48b48a8d5ab3c35171908695cea9a17e6dc82
-  AWSS3: 7cb2a3922bd4472f3e4d95a7788d0f2d72bb5e64
   BButton: ab0f2ed3b998ae73c5188b57d270d81e4a1eeb27
   Bolts: aac24961496d504aa56fc267cde95162a71bac39
   CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
@@ -137,9 +125,10 @@ SPEC CHECKSUMS:
   FormatterKit: bddde83e054edf9d9ee14f9de3b3a5103db256f4
   GZIP: f0863fda354e8f83316508c0a2c7bbe385e39129
   Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
+  Mixpanel: fd52e097ae0d27295d0595b2261c60b94d191fda
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
   SSPullToRefresh: ae69778f6961120bd906e6349602c6918e609368
   TMCache: a93984b045a5ee84bd8941bd5e0b54296059cc52
@@ -147,6 +136,5 @@ SPEC CHECKSUMS:
   UICKeyChainStore: c5719c814e8bd69e74e4a0fc09daf8f4d6257a59
   VTAcknowledgementsViewController: f2391b007c3abafd3b3afccda7d8914a59b44309
   XMLDictionary: f9f51601ba76678b594ab485f2b00ec1fed23724
-  YapDatabase: 2898ddb5dfbef699539a2a673bf900831f4eca8b
 
 COCOAPODS: 0.37.2

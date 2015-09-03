@@ -7,12 +7,12 @@
 //
 
 #import "KFDemoViewController.h"
-#import "Kickflip.h"
-#import "KFAPIClient.h"
+
 #import "KFLog.h"
 #import "KFUser.h"
-#import "YapDatabase.h"
-#import "YapDatabaseView.h"
+#import "Kickflip.h"
+//#import "YapDatabase.h"
+//#import "YapDatabaseView.h"
 #import "PureLayout.h"
 #import "KFDateUtils.h"
 #import "KFStreamTableViewCell.h"
@@ -31,6 +31,7 @@ static NSString * const kKFStreamsCollection = @"kKFStreamsCollection";
 @end
 
 @implementation KFDemoViewController
+
 
 
 
