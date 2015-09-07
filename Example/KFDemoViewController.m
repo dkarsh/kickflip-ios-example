@@ -9,8 +9,8 @@
 #import "KFDemoViewController.h"
 
 #import "KFLog.h"
-#import "KFUser.h"
-#import "Kickflip.h"
+//#import "KFUser.h"
+#import "AmpKeys.h"
 //#import "YapDatabase.h"
 //#import "YapDatabaseView.h"
 #import "PureLayout.h"
@@ -36,7 +36,7 @@ static NSString * const kKFStreamsCollection = @"kKFStreamsCollection";
 
 
 - (void) broadcastButtonPressed:(id)sender {
-    [Kickflip presentBroadcasterFromViewController:self ready:^(KFStream *stream) {
+    [AmpKeys presentBroadcasterFromViewController:self ready:^(KFStream *stream) {
         if (stream.streamURL) {
             DDLogInfo(@"Stream is ready at URL: %@", stream.streamURL);
         }
